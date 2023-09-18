@@ -1,7 +1,6 @@
 /*  BookDashboar general CSS */
 
 .dashboard__container {
-  background-color: #c1c1c1;
   display: flex;
   justify-content: center;
   width: 100%;
