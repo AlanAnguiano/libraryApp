@@ -1,0 +1,28 @@
+/*  BookDashboar general CSS */
+
+.dashboard__container {
+  background-color: #c1c1c1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/*  BookDashboardOptions CSS */
+
+.bookDashboardOptions__container {
+  display: flex;
+  margin: 10px 0;
+  width: 90%;
+}
+
+.center {
+  justify-content: center;
+}
+
+.left {
+  justify-content: left;
+}
+
+.right {
+  justify-content: right;
+}

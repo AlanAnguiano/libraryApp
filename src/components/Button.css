@@ -1,0 +1,47 @@
+.btn__container {
+  border-radius: 5px;
+  cursor: pointer;
+  max-width: 250px;
+  text-align: center;
+}
+
+.btn__xs {
+  width: 60px;
+}
+
+.btn__sm {
+  width: 120px;
+}
+
+.btn__md {
+  width: 150px;
+}
+
+.btn__lg{
+  width: 200px;
+}
+
+.btn__xl {
+  width: 250px
+}
+
+.btn_text {
+  margin: 10px;
+}
+
+.default {
+  background-color: rgb(45, 136, 184);
+  color: #ffffff;
+}
+
+.add {
+  background-color: rgb(12, 166, 12);
+}
+
+.warning {
+  background-color: rgba(231, 186, 24, 0.869);
+}
+
+.danger {
+  background-color: rgb(194, 28, 28);
+}
