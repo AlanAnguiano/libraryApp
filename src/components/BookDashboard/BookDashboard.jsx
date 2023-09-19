@@ -1,5 +1,5 @@
 import './BookDashboard.css'
-import BookDashboardOptions from './BookDashboardOptions'
+import BookDashboardOptions from './BookDashboardOptions/BookDashboardOptions'
 
 const OPTIONS = [
   { optionText: 'Add New Book', style: 'add' }

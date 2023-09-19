@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './components/Navbar'
-import BookDashboard from './components/BookDashboard'
+import Navbar from './components/Navbar/Navbar'
+import BookDashboard from './components/BookDashboard/BookDashboard'
 
 const App = () => {
   return (
