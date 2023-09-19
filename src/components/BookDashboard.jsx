@@ -5,7 +5,7 @@ const OPTIONS = [
   { optionText: 'Add New Book', style: 'add' }
 ]
 
-function BookDashboard() {
+const BookDashboard = () => {
   return(
     <div className='dashboard__container'>
       <BookDashboardOptions alignOptionItems="right" options={OPTIONS}/>
@@ -13,5 +13,3 @@ function BookDashboard() {
     </div>
   )
 }
-
-export default BookDashboard

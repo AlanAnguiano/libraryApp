@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import BookDashboard from './components/BookDashboard'
 
-function App() {
+const App = () => {
   return (
     <>
       <Navbar title="Library App"/>
@@ -11,5 +11,3 @@ function App() {
     </>
   )
 }
-
-export default App

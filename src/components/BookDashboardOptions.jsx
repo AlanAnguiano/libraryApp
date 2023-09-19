@@ -1,13 +1,10 @@
 import Button from './Button'
 
-function BookDashboardOptions({alignOptionItems = '', options}) {
+const BookDashboardOptions = ({alignOptionItems = '', options}) => {
   const optionsButtons = [];
 
-  function selectStyle(opt){
-    if (opt.hasOwnProperty("style")){
-      return opt.style
-    }
-    return 'default'
+  const selectStyle = (opt) => {
+    return opt.hasOwnProperty("style") ? opt.style : 'default'
   }
 
   options.forEach((option) => {
@@ -24,5 +21,3 @@ function BookDashboardOptions({alignOptionItems = '', options}) {
     </div>
   )
 }
-
-export default BookDashboardOptions

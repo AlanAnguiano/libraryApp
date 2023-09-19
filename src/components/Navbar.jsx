@@ -1,6 +1,6 @@
 import './Navbar.css'
 
-function Navbar(props) {
+const Navbar = (props) => {
   return(
     <>
       <div className="navbar">
@@ -9,5 +9,3 @@ function Navbar(props) {
     </>
   )
 }
-
-export default Navbar
